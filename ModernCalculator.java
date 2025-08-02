@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ModernCalculator {
     public static void main(String[] args) {
+		System.out.println("Hi This is Simple Calculations...");
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Enter first number:");
             double num1 = scanner.nextDouble();
@@ -31,5 +32,7 @@ public class ModernCalculator {
 
             System.out.println("Result = " + result);
         }
+		System.out.println("Hi This is Simple Calculations...");
     }
+	
 }
